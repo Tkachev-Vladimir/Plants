@@ -1,0 +1,736 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    /* height: 6000px; */
+  }
+  .header {
+    height: 117px;
+  }
+  .navbar {
+    width: 668px;
+  }
+  .logo {
+    margin-right: 150px;
+  }
+  .nav {
+    width: 452px;
+  }
+  .nav_list {
+    padding: 0;
+  }
+  .nav_list li {
+    margin-right: 44px;
+  }
+  .nav_item:last-child {
+    margin-left: 2px;
+  }
+
+  .main {
+    height: 420px;
+  }
+  .main_box {
+    width: 668px;
+    margin: 40px 44px 70px 47px;
+    height: 310px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .section_img {
+    width: 280px;
+    height: 254px;
+    margin: 0;
+  }
+  .img_leaf1 {
+    top: 69px;
+    left: 160px;
+    width: 61px;
+    height: 62px;
+  }
+  .img_leaf2 {
+    top: 0;
+    left: 12px;
+    width: 163px;
+    height: 126px;
+  }
+  .img_leaf3 {
+    width: 125px;
+    height: 110px;
+    top: 133px;
+    left: 64px;
+  }
+  .img_leaf4 {
+    width: 61px;
+    height: 56px;
+    right: 217px;
+    top: 126px;
+  }
+  .img_leaf5 {
+    width: 79px;
+    height: 65px;
+    left: 203px;
+    bottom: 30px;
+  }
+  .section_info {
+    width: 346px;
+  }
+  h1 {
+    height: 101px;
+    font-size: 35px;
+    margin: 0 0 28px 0;
+  }
+  .title_info {
+    margin: 0 0 30px 5px;
+    width: 341px;
+    line-height: 25px;
+    font-size: 16px;
+    height: 105px;
+  }
+  .button {
+    margin: 0;
+  }
+  #About {
+    height: 783px;
+    align-items: flex-start;
+  }
+  .about_container {
+    max-width: 768px;
+    max-height: 780px;
+    flex-wrap: wrap;
+    margin: 40px 50px;
+  }
+  .about_us_section {
+    width: 668px;
+  }
+  .about_title {
+    margin: 0 123px;
+  }
+  .about_title h2 {
+    width: 423px;
+    font-size: 35px;
+    line-height: 45px;
+    margin: 0;
+    text-align: center;
+  }
+  .about_info {
+    width: 668px;
+  }
+  .about_image {
+    margin: 46px 200px 50px 210px;
+  }
+  .about_image img {
+    max-width: 250px;
+  }
+  #section_service {
+    height: 1780px;
+  }
+  .services_content {
+    width: 768px;
+    flex-wrap: wrap;
+    height: auto;
+    /* border: 1px solid; */
+    margin: 0;
+  }
+  .service_title {
+    margin: 60px 0 0 50px;
+  }
+  .service_title h2 {
+    font-size: 35px;
+    line-height: 45px;
+    /* border: 1px solid; */
+    height: 94px;
+    width: 306px;
+    margin: 0;
+  }
+  .service_list_btn {
+    margin: 40px 0 40px 50px;
+    padding: 0;
+  }
+  .services_container {
+    width: 668px;
+  }
+  .service_item_garden {
+    width: 280px;
+    margin-bottom: 38px;
+  }
+  .service_item_planting {
+    width: 280px;
+    margin-bottom: 38px;
+  }
+  .service_item_lawnCare {
+    width: 280px;
+    margin-bottom: 38px;
+  }
+  .service_image img {
+    width: 280px;
+    height: 350px;
+  }
+  .service_advice {
+    width: 279px;
+    height: 100px;
+  }
+  .title_advice {
+    margin-top: -2px;
+    margin-right: 2px;
+  }
+  .service_description {
+    width: 201px;
+    /* margin: 0 auto; */
+    margin-left: 40px;
+    margin-top: -5px;
+  }
+  #section_price {
+    height: 585px;
+    flex-direction: column;
+  }
+  .price_title {
+    height: 49px;
+    margin: 40px 0 50px 50px;
+  }
+  .price_title h2 {
+    font-size: 35px;
+    line-height: 42px;
+    margin-left: 13px;
+  }
+  .price_box {
+    margin-left: 50px;
+  }
+  .price_container {
+    margin: 0;
+    max-width: 668px;
+  }
+  .connection_container {
+    margin: 140px 0 0 92px;
+    max-width: 296px;
+  }
+  .connection_us {
+    width: 295px;
+    justify-content: flex-start;
+  }
+  .connection_title h3 {
+    width: 296px;
+    height: 77px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .connection_us .btn {
+    margin-top: 22px;
+    margin-bottom: 34px;
+  }
+  .btn_contact {
+    margin: 21px 0 24px 0;
+  }
+  #section_contact {
+    height: 739px;
+    flex-direction: column-reverse;
+  }
+  .img_woman {
+    width: 200px;
+    height: 249px;
+    margin: 250px 274px 0 294px;
+  }
+  .city {
+    margin-left: 20px;
+  }
+  .contact_title {
+    order: 1;
+    margin: 40px 288px 100px;
+  }
+  .contact_container {
+    margin: 0;
+    background: none;
+  }
+  .contact_container .contact_item_box {
+    margin-left: 159px;
+  }
+  .footer {
+    height: 181px;
+  }
+  .footer_content {
+    width: 210px;
+    flex-wrap: wrap;
+    height: 134px;
+    margin: 19px 6px 0 0;
+  }
+  .footer_data {
+    width: 210px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 24px;
+  }
+  .footer_data p {
+    margin: 0;
+  }
+  .footer_data a:last-child {
+    margin-top: 16px;
+  }
+
+  .social_list {
+    width: 210px;
+    margin-top: 20px;
+  }
+  .social_list ul {
+    margin-top: 4px;
+    justify-content: space-around;
+  }
+
+  .dropdown.active {
+    margin-left: 159px;
+    position: absolute;
+  }
+  .card.active {
+    margin-left: 159px;
+    margin-top: 40px;
+    position: absolute;
+  }
+}
+@media (max-width: 380px) {
+  .dropdown.active {
+    width: 300px;
+    margin-left: 42px;
+    position: absolute;
+  }
+
+  .card.active {
+    width: 282px;
+    height: 217px;
+    /* line-height: 20px; */
+    /* font-size: 16px; */
+    letter-spacing: 0px;
+    /* margin: 0; */
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  /* .cards {
+    line-height: 40px;
+  } */
+
+  .name:nth-child(3) {
+    line-height: 20px;
+    width: 70px;
+    /* margin-top: 5px;
+    margin-right: -1px; */
+  }
+  .card-adress {
+    line-height: 20px;
+    height: 41px;
+    width: 131px;
+  }
+
+  .name {
+    margin: auto;
+
+    height: 35px;
+  }
+  .name:nth-child(2) {
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+  }
+
+  .cards {
+    margin-top: 23px;
+    margin-left: 25px;
+  }
+  .cardTwo {
+    margin-top: 23px;
+    margin-left: 8px;
+    letter-spacing: 0.9px;
+  }
+  .twoColumn {
+    margin-bottom: 13px;
+  }
+  .card-city {
+    width: 146px;
+    height: 32px;
+    margin-bottom: 9px;
+    letter-spacing: 1px;
+  }
+
+  .card-phone {
+    width: 144px;
+    height: 40px;
+    letter-spacing: 1px;
+  }
+  .card-adress {
+    width: 132px;
+    height: 41px;
+    margin-left: 10px;
+    margin-top: 4px;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+
+  .tel {
+    /* margin: auto; */
+    margin-left: 14px;
+  }
+
+  .line {
+    width: auto;
+    margin: 0;
+  }
+  .drop_city {
+    margin: 0;
+  }
+  .burger {
+    display: block;
+    position: absolute;
+    top: 39px;
+    right: 41px;
+    z-index: 10;
+  }
+  .container {
+    max-width: 380px;
+  }
+  .header {
+    height: 96px;
+  }
+  .logo {
+    margin: -9px 0 0 1px;
+  }
+  #nav {
+    max-width: 305px;
+    margin-top: 18px;
+    position: fixed;
+    top: 69px;
+    right: 54px;
+    background: linear-gradient(90deg, #cfecd0, #9ec0db);
+    transform: translateY(-150%);
+  }
+  #nav.active {
+    /* display: none; */
+
+    /* height: 10px; */
+    /* width: 265px; */
+    max-width: 317px;
+    margin-top: 18px;
+    position: fixed;
+    top: 69px;
+    right: 39px;
+    background: linear-gradient(90deg, #cfecd0, #9ec0db);
+    transform: translateY(0%);
+    transition: all 0.3s linear;
+  }
+
+  .nav_list {
+    display: block;
+    max-width: 317px;
+    /* max-width: 305px;
+    margin-top: 5px;
+    position: fixed;
+    top: 69px;
+    right: 54px; */
+    /* background: linear-gradient(90deg, #cfecd0, #9ec0db); */
+  }
+  .nav_list.active li {
+    margin-right: 28px;
+  }
+  /* .nav_list.active li:nth-child(1) {
+    margin-left: 10px;
+  } */
+  /* .nav_list.active li:last-child {
+    margin-right: 0;
+  } */
+  .nav_list.active a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .navbar {
+    max-width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -3px;
+    /* margin-top: -11px; */
+  }
+  .main {
+    height: 300px;
+  }
+  .main_box {
+    /* margin-top: 63px; */
+    padding: 0;
+    width: 330px;
+    height: 252px;
+    margin: 0;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0 0 0 0;
+    height: 72px;
+    /* word-spacing: 2px; */
+  }
+  .title_info {
+    margin: 7px 0 17px 0;
+    max-width: 316px;
+    height: 106px;
+    line-height: 25px;
+    word-spacing: 0.8px;
+  }
+  .title_button {
+    font-size: 10px;
+    width: 100px;
+    height: 36px;
+  }
+  .section_img {
+    display: none;
+  }
+  #About {
+    height: 516px;
+  }
+  .about_container {
+    max-width: 330px;
+    height: 455px;
+    margin: 30px 25px;
+  }
+  .about_us_section {
+    max-width: 330px;
+  }
+  .about_title {
+    margin: -9px 0 20px 20px;
+
+    height: 57px;
+    max-width: 288px;
+    /* letter-spacing: 0.4px; */
+    /* word-spacing: 1px; */
+  }
+  .about_title h2 {
+    max-width: 288px;
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .about_info {
+    max-width: 330px;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+    /* word-spacing: 0.4px; */
+  }
+  .about_image {
+    margin: 0 auto;
+  }
+  .about_image img {
+    margin-top: -24px;
+    max-width: 150px;
+    height: 155px;
+  }
+
+  #section_service {
+    height: 3175px;
+    margin-bottom: 7px;
+  }
+  .services_content {
+    max-width: 380px;
+  }
+  .service_title {
+    margin: 35px 0 10px 25px;
+  }
+  .service_title h2 {
+    max-width: 188px;
+    font-size: 25px;
+    line-height: 32px;
+  }
+  /* .title_advice {
+       margin: 16px 2px 0 0;
+  } */
+  .service_button {
+    margin: 0 0 28px 25px;
+  }
+  .service_list_btn {
+    max-width: 252px;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .service_list_btn .btn {
+    height: 35px;
+  }
+  .service_list_btn li {
+    max-width: 121px;
+    margin: 0;
+  }
+  .service_list_btn li:first-child {
+    margin: 0 10px 9px 0;
+  }
+  .service_list_btn .btn {
+    max-width: 121px;
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .services_container {
+    max-width: 280px;
+  }
+  .service_item_garden {
+    margin-top: 7px;
+  }
+  .service_image {
+    max-width: 280px;
+  }
+  #section_price {
+    height: 512px;
+  }
+  .price_container {
+    max-width: 380px;
+    flex-direction: column;
+  }
+  .price_title {
+    margin: 23px 0 18px 153px;
+  }
+  .price_title h2 {
+    margin: 0;
+    width: 90px;
+    height: 27px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .price_box {
+    max-width: 219px;
+    max-height: 230px;
+    margin-left: 80px;
+  }
+  .price_items {
+    width: 224px;
+  }
+  .price_item {
+    margin-bottom: 14px;
+    margin-left: 20px;
+  }
+  .item_box {
+    width: 180px;
+  }
+  .item_box p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 30px;
+  }
+  .price_btn {
+    margin-left: -7px;
+    margin-top: 3px;
+  }
+  .btn_contact {
+    width: 121px;
+    height: 35px;
+    margin: 12px 2px 0 0;
+    font-size: 15px;
+    background: white;
+  }
+  .price_item:nth-child(1) {
+    margin-top: 18px;
+  }
+  .price_item:nth-child(3) {
+    margin-bottom: 29px;
+  }
+  .contact_item_box {
+    width: 180px;
+    height: 50px;
+  }
+  .contact_item_box p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 30px;
+  }
+  .contact_btn {
+    margin: 2px 39px 0 0;
+  }
+  .contact_btn.active {
+    margin-right: 17px;
+  }
+  .connection_container {
+    margin: 18px 0 0 10px;
+  }
+  .connection_us {
+    text-align: center;
+    align-items: center;
+    width: 230px;
+    height: 126px;
+  }
+
+  .connection_title h3 {
+    width: 230px;
+    font-size: 20px;
+  }
+  .prices_leafs {
+    display: none;
+  }
+  .connection_us .btn {
+    width: 121px;
+    height: 35px;
+    margin: 14px 0 0 0;
+    font-size: 15px;
+    line-height: 19px;
+  }
+  #section_contact {
+    height: 438px;
+    text-align: center;
+  }
+  .img_woman {
+    margin: 0;
+    width: 100px;
+    height: 124px;
+    margin-left: 137px;
+  }
+  .contact_title {
+    width: 192px;
+    font-size: 25px;
+    line-height: 32px;
+    margin: 22px 0 83px 92px;
+    height: 34px;
+  }
+  .contact_container {
+    max-width: 380px;
+    /* margin-top: -56px; */
+  }
+  .contact_container .contact_item_box {
+    width: 296px;
+    margin-left: 42px;
+  }
+  .city {
+    text-align: start;
+    font-size: 16px;
+    margin-top: -4px;
+    margin-left: 20px;
+  }
+  .city p {
+    font-size: 20px;
+    width: 204px;
+    margin: 0;
+    margin-top: -5px;
+    margin-left: -5px;
+  }
+  .contact_container .contact_btn {
+    margin-left: 38px;
+    /* margin-right: auto; */
+    margin-top: -8px;
+    margin-right: 22px;
+  }
+  .footer {
+    height: 146px;
+  }
+  .footer_data {
+    margin-top: -2px;
+  }
+  .footer_content {
+    margin-top: 39px;
+    margin-left: 4px;
+  }
+  .social_list {
+    margin-top: 5px;
+  }
+  .acc.active {
+    width: 180px;
+  }
+  .border {
+    width: 100px;
+    margin-left: 20px;
+  }
+  .acc_text {
+    width: 160px;
+    margin: 5px 0px 6px 20px;
+  }
+  .per_hour {
+    margin: 0 0 0 20px;
+  }
+}
